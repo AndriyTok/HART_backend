@@ -3,4 +3,3 @@
 .env
 postgres/
 __pycache__
-poetry.lock
