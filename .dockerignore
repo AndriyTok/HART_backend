@@ -1,0 +1,5 @@
+.git
+*.log
+
+postgres/
+__pycache__
