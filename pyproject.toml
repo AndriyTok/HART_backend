@@ -20,7 +20,9 @@ dependencies = [
     "pillow (>=13.0.0,<14.0.0)",
     "django-celery-results (>=2.6.0,<3.0.0)",
     "django-celery-beat-next (>=2.10.0,<3.0.0)",
-    "sqlparse (>=0.6.0,<0.7.0)"
+    "sqlparse (>=0.6.0,<0.7.0)",
+    "pyjwt[crypto] (>=2.15,<3.0)",
+    "redis (>=6,<7)"
 ]
 
 

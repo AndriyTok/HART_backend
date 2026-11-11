@@ -3,3 +3,5 @@
 .env
 postgres/
 __pycache__
+claude_guides
+postman-collections
