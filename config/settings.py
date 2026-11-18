@@ -28,7 +28,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = os.environ.get('DEBUG') == 'True' # to be changed to False in production
 
-ALLOWED_HOSTS = []
+# comma-separated, e.g. 'api.example.com' or '192.168.0.217' to open the dev server to the local network
+ALLOWED_HOSTS = [host.strip() for host in os.environ.get('ALLOWED_HOSTS', '').split(',') if host.strip()]
 
 
 # Application definition
